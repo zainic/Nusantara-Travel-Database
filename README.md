@@ -17,7 +17,7 @@ Follow the instuction to install there.
 
 Run the app and start the Apache and MySQL
 
-<img title="XAMPP" alt="Alt" src="./img/xampp.png" style="width:500px;height:400px;">
+<img title="XAMPP" alt="Alt" src="./img/xampp.png" style="width:600px;height:400px;">
 
 ## Step 3
 
@@ -49,7 +49,7 @@ http://localhost/phpmyadmin/
 
 Import the sql file database from database directory
 
-<img title="IMPORT" alt="Alt" src="./img/import.png" style="width:500px;height:400px;">
+<img title="IMPORT" alt="Alt" src="./img/import.png" style="width:750px;height:400px;">
 
 ## Step 6
 
@@ -59,4 +59,4 @@ http://localhost/Nusantara-Travel-Database/website_development/Project.html?
 
 And you will get this view
 
-<img title="EXAMPLE" alt="Alt" src="./img/example.png" style="width:500px;height:400px;">
+<img title="EXAMPLE" alt="Alt" src="./img/example.png" style="width:900px;height:400px;">
