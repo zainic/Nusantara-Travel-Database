@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+    <title>Nusantara Travel</title>
+    <style>
+        .kotak1 {
+        background: rgba(46, 131, 131, 0.85);
+        color: black;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: courier;
+        opacity: 100%;
+        }
+    </style>
+    <style>
+        .kotak2 {
+        background: rgba(221, 235, 228, 0.5);
+        color: black;
+        border: 1px solid black;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 10px;
+        text-align: left;
+        opacity: 100%;
+        }
+    </style>
+    <style>
+        .kotak3 {
+        background: rgb(0, 217, 255);
+        color: black;
+        border: 1px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        text-align: left;
+        opacity: 100%;
+        }
+    </style>
+    <style>
+        body {
+        background-image: url('Gunung.jpg');
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        }
+    </style> 
+</head>
+<body>
+    <header style="background: rgba(3,4,5,0.5);border: 5px solid black;margin-top:20px;margin-left:200px;margin-right:200px;padding:10px;text-align:center;">
+    <span style="color:white;font-family:arial;opacity:100%"><h1 style="font-size:41pt;"><b>Nusantara Travel</b></h1></span>
+    <h5 style="color:white;font-family:courier">Treat Your Life With Our Service</h5>
+    </header>
+    <section style="background: rgba(128,128,128,0.3);border:5px solid black;margin-left:200px;margin-right:200px;padding:20px;">
+        <div class="kotak1">
+            <p style="text-align: justify;color: beige;font-family: 'Times New Roman';margin-left:50px;margin-right:50px;">
+                &emsp;&emsp;Selamat datang di Nusantara Travel cabang surabaya dimana anda bisa 
+                mengabiskan masa-masa anda bersama keluarga tercinta anda bersama kami di 
+                Gunung Bromo. Bagi yang tidak punya atau masih belum berkeluarga juga jangan bersedih anda
+                juga bisa mengajak orang tua, pacar, teman, dan orang orang terdekat bagi anda lainnya.
+                Anda juga bisa berpergian sendirian jika anda butuh ketenangan dan anda merupakan orang yang no-life
+            </p>
+            <p style="text-align: justify;color: beige;font-family: 'Times New Roman';margin-left:50px;margin-right:50px;">
+                &emsp;&emsp;Silahkan mengisi formulir berikut untuk mendaftarkan diri anda.
+                Isilah data-data diri dengan benar. Kami selaku Nusantara Travel tidak bertanggung jawab apabila terjadi
+                kesalahan pada proses input data.
+            </p>
+            <br><br>
+            <div class="kotak2">
+                <div style="margin:20px";>
+                <h1 style="color:white;font-family: arial;-webkit-text-stroke: 1px black;"><b>Formulir Pendaftaran</b></h1>
+                <br>
+                <div class="kotak3">
+                    <form action="Periksa.php" method="POST" id="Daftar">
+                        <h3>Nama Lengkap</h3>
+                        <input type="text" name="Nama_Wisatawan" style="width: 300pt;height:25px;font-size:medium;font-family:'Times New Roman';" placeholder="Masukkan Nama Lengkap">
+                        <h3>Nomor Hp/Wa Aktif</h3>
+                        <input type="text" name="No_Hp" style="width: 300pt;height:25px;font-size:medium;font-family:'Times New Roman';" placeholder="Masukkan Nomor Hp/WA Aktif">
+                        <h3>Jenis Kelamin</h3>
+                        <select name="Gender" id="Gender" form="Daftar" style="width: 300pt;height:25px;font-size:medium;font-family:'Times New Roman'">
+                            <option value="">-----------</option>
+                            <option value="L">Laki-Laki</option>
+                            <option value="P">Perempuan</option>
+                            </select>
+                        <h3>Pilih Tanggal Keberangkat</h3>
+                        <input type="date" name="Jadwal_Keberangkatan" style="width: 300pt;height:25px;font-size:medium;font-family:'Times New Roman';">
+                        <h3>Pilih Paket</h3>
+                        <select name="Nama_Paket" id="Nama_Paket" form="Daftar" style="width: 300pt;height:25px;font-size:medium;font-family:'Times New Roman';">
+                            <option value="-------">-------</option>
+                            <option value="Reguler">Reguler</option>
+                            <option value="VIP">VIP</option>
+                            <option value="VVIP">VVIP</option>
+                        </select>
+                        <br><br><br>
+                        <button type="submit" value="Daftar" name="Daftar" style="width:100px;height:40px;font-size:20pt;font-family:Cambria"> Daftar</button>
+                    </form>
+                </div>
+                <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="height:600pt;">
+    </div>
+</body>
+</html>
